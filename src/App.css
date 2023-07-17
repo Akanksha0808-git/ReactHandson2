@@ -1,0 +1,90 @@
+
+body{
+background-image: linear-gradient(to left,pink,hotpink,rgb(212, 0, 255)
+);
+
+}
+
+.head{
+ margin-left: 550px;
+ margin-top: 30px;
+ font-size: 40px;
+ font-weight: 600;
+
+}
+#FormBox{
+
+  max-width: 400px;
+  margin: 90px auto;
+  padding: 20px;
+  border: 2px solid #050505;
+ background-image: linear-gradient(rgb(12, 187, 178),white);
+  border-radius: 14px;
+  font-size: 20px;
+  font-weight: 600;
+
+}
+#contentbox{
+  background-image: linear-gradient(to right,rgb(12, 187, 178),white);
+  border: 2px solid black;
+  height: 90px;
+  width: 470px;
+  margin: 20px;
+  margin-left: 150px; 
+  position: relative;
+  border-radius: 20px;
+
+
+}
+#content
+{
+height:40px ;
+width:400px ;
+background-color:#ffffffca;
+position: absolute;
+top: 25px;
+left: 30px;
+
+
+}
+#parentBox{
+  height: auto;
+  width: 100%;
+  background-image: linear-gradient(to left,rgb(61, 210, 20),rgb(241, 242, 244));
+  display: flex;
+  flex-wrap: wrap;
+ 
+}
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input,
+  textarea {
+    margin-bottom: 15px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 34px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    
+    background-color: #1d9199;
+  }
+
+  
